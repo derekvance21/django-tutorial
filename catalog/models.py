@@ -61,7 +61,6 @@ class BookInstance(models.Model):
             return True
         return False
 
-
     LOAN_STATUS = (
         ('m', 'Maintenance'),
         ('o', 'On loan'),
